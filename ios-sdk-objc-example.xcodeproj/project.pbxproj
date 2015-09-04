@@ -11,10 +11,12 @@
 		303DE7F71B7A381B00C63BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 303DE7F61B7A381B00C63BFF /* AppDelegate.m */; };
 		303DE8001B7A381B00C63BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303DE7FE1B7A381B00C63BFF /* Main.storyboard */; };
 		303DE8021B7A381B00C63BFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303DE8011B7A381B00C63BFF /* Images.xcassets */; };
-		303DE81C1B7A383900C63BFF /* AdbladeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 303DE81A1B7A383900C63BFF /* AdbladeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		303DE8201B7A38F000C63BFF /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303DE81F1B7A38F000C63BFF /* BannerViewController.m */; };
 		304E62C01B7A41D100F875D4 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304E62BF1B7A41D100F875D4 /* NativeViewController.m */; };
 		304E62C31B7A438000F875D4 /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304E62C21B7A438000F875D4 /* InterstitialViewController.m */; };
+		308CE00D1B99ECB6006E7689 /* AdbladeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308CE00C1B99ECB6006E7689 /* AdbladeSDK.framework */; };
+		308CE00E1B99ECB6006E7689 /* AdbladeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 308CE00C1B99ECB6006E7689 /* AdbladeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		308CE0111B99ED15006E7689 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CE0101B99ED15006E7689 /* ButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				303DE81C1B7A383900C63BFF /* AdbladeSDK.framework in Embed Frameworks */,
+				308CE00E1B99ECB6006E7689 /* AdbladeSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,13 +41,15 @@
 		303DE7F61B7A381B00C63BFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		303DE7FF1B7A381B00C63BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		303DE8011B7A381B00C63BFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		303DE81A1B7A383900C63BFF /* AdbladeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdbladeSDK.framework; sourceTree = "<group>"; };
 		303DE81E1B7A38F000C63BFF /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
 		303DE81F1B7A38F000C63BFF /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
 		304E62BE1B7A41D100F875D4 /* NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
 		304E62BF1B7A41D100F875D4 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
 		304E62C11B7A438000F875D4 /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
 		304E62C21B7A438000F875D4 /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
+		308CE00C1B99ECB6006E7689 /* AdbladeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdbladeSDK.framework; sourceTree = "<group>"; };
+		308CE00F1B99ED15006E7689 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		308CE0101B99ED15006E7689 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308CE00D1B99ECB6006E7689 /* AdbladeSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +67,7 @@
 		303DE7E51B7A381B00C63BFF = {
 			isa = PBXGroup;
 			children = (
-				303DE81A1B7A383900C63BFF /* AdbladeSDK.framework */,
+				308CE00C1B99ECB6006E7689 /* AdbladeSDK.framework */,
 				303DE7F01B7A381B00C63BFF /* ios-sdk-objc-example */,
 				303DE7EF1B7A381B00C63BFF /* Products */,
 			);
@@ -80,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				303DE7F51B7A381B00C63BFF /* AppDelegate.h */,
+				308CE00F1B99ED15006E7689 /* ButtonViewController.h */,
+				308CE0101B99ED15006E7689 /* ButtonViewController.m */,
 				303DE7F61B7A381B00C63BFF /* AppDelegate.m */,
 				303DE7FE1B7A381B00C63BFF /* Main.storyboard */,
 				303DE8011B7A381B00C63BFF /* Images.xcassets */,
@@ -177,6 +184,7 @@
 				303DE7F71B7A381B00C63BFF /* AppDelegate.m in Sources */,
 				304E62C31B7A438000F875D4 /* InterstitialViewController.m in Sources */,
 				303DE7F41B7A381B00C63BFF /* main.m in Sources */,
+				308CE0111B99ED15006E7689 /* ButtonViewController.m in Sources */,
 				303DE8201B7A38F000C63BFF /* BannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

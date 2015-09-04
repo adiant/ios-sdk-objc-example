@@ -1,3 +1,11 @@
+//
+//  SDK.h
+//  SDK
+//
+//  Created by Joe Frazer on 7/16/15.
+//  Copyright (c) 2015 Joe Frazer. All rights reserved.
+//
+
 #import <UIKit/UIKit.h>
 
 //! Project version number for SDK.
