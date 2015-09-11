@@ -14,7 +14,8 @@
 		303DE8201B7A38F000C63BFF /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303DE81F1B7A38F000C63BFF /* BannerViewController.m */; };
 		304E62C01B7A41D100F875D4 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304E62BF1B7A41D100F875D4 /* NativeViewController.m */; };
 		304E62C31B7A438000F875D4 /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304E62C21B7A438000F875D4 /* InterstitialViewController.m */; };
-		308CE0111B99ED15006E7689 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CE0101B99ED15006E7689 /* ButtonViewController.m */; };
+		305BCA091BA312E6006ADD61 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 305BCA081BA312E6006ADD61 /* TableViewController.m */; };
+		305BCA0C1BA32370006ADD61 /* AdbladeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 305BCA0B1BA32370006ADD61 /* AdbladeViewController.m */; };
 		4CF1B1D8B50C58AD593C3846 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C1B5C443C8CC4729B9F7AF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +46,10 @@
 		304E62BF1B7A41D100F875D4 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
 		304E62C11B7A438000F875D4 /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
 		304E62C21B7A438000F875D4 /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
-		308CE00F1B99ED15006E7689 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
-		308CE0101B99ED15006E7689 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		305BCA071BA312E6006ADD61 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		305BCA081BA312E6006ADD61 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		305BCA0A1BA32370006ADD61 /* AdbladeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdbladeViewController.h; sourceTree = "<group>"; };
+		305BCA0B1BA32370006ADD61 /* AdbladeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdbladeViewController.m; sourceTree = "<group>"; };
 		56796EC46430D3262F1350EE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A7C1B5C443C8CC4729B9F7AF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD764CF18BF0A2F7607DABB7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				303DE7F51B7A381B00C63BFF /* AppDelegate.h */,
-				308CE00F1B99ED15006E7689 /* ButtonViewController.h */,
-				308CE0101B99ED15006E7689 /* ButtonViewController.m */,
 				303DE7F61B7A381B00C63BFF /* AppDelegate.m */,
 				303DE7FE1B7A381B00C63BFF /* Main.storyboard */,
 				303DE8011B7A381B00C63BFF /* Images.xcassets */,
@@ -106,6 +107,10 @@
 				304E62BF1B7A41D100F875D4 /* NativeViewController.m */,
 				304E62C11B7A438000F875D4 /* InterstitialViewController.h */,
 				304E62C21B7A438000F875D4 /* InterstitialViewController.m */,
+				305BCA071BA312E6006ADD61 /* TableViewController.h */,
+				305BCA081BA312E6006ADD61 /* TableViewController.m */,
+				305BCA0A1BA32370006ADD61 /* AdbladeViewController.h */,
+				305BCA0B1BA32370006ADD61 /* AdbladeViewController.m */,
 			);
 			path = "ios-sdk-objc-example";
 			sourceTree = "<group>";
@@ -237,7 +242,8 @@
 				303DE7F71B7A381B00C63BFF /* AppDelegate.m in Sources */,
 				304E62C31B7A438000F875D4 /* InterstitialViewController.m in Sources */,
 				303DE7F41B7A381B00C63BFF /* main.m in Sources */,
-				308CE0111B99ED15006E7689 /* ButtonViewController.m in Sources */,
+				305BCA091BA312E6006ADD61 /* TableViewController.m in Sources */,
+				305BCA0C1BA32370006ADD61 /* AdbladeViewController.m in Sources */,
 				303DE8201B7A38F000C63BFF /* BannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

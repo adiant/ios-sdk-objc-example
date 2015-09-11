@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
+#import "AdbladeViewController.h"
 @import AdbladeSDK;
 
-@interface NativeViewController : UIViewController<AdbladeDelegate>
-
+@interface NativeViewController : AdbladeViewController<AdbladeDelegate>
 @end

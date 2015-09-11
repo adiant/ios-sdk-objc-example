@@ -1,7 +1,6 @@
 #import <UIKit/UIKit.h>
+#import "AdbladeViewController.h"
 @import AdbladeSDK;
 
-@interface InterstitialViewController :  UIViewController<AdbladeDelegate>
-    @property NSString* containerId;
-    @property AdbladeAdType adType;
+@interface InterstitialViewController :  AdbladeViewController<AdbladeDelegate>
 @end

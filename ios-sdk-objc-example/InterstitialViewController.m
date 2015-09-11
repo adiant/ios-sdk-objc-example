@@ -7,8 +7,9 @@
 @implementation InterstitialViewController
 
 - (void)loadView {
-    AdbladeInterstitialView *abView = (AdbladeInterstitialView *)[AdbladeViewFactory createView:(self.containerId) adType: self.adType delegate: self];
+    [super loadView];
     
+    AdbladeInterstitialView *abView = (AdbladeInterstitialView *)[AdbladeViewFactory createView:(self.containerId) adType: self.adType delegate: self];
     
     self.view = abView;
 }
@@ -18,7 +19,7 @@
 }
 
 - (void)didHaveError:(id<AdbladeView> __nonnull)view error:(AdbladeError * __nonnull)error {
-    NSLog(@"error");
+    NSLog(@"error: %@", error.description);
 }
 
 @end
