@@ -10,6 +10,7 @@
     [super loadView];
     
     AdbladeInterstitialView *abView = (AdbladeInterstitialView *)[AdbladeViewFactory createView:(self.containerId) adType: self.adType delegate: self];
+    [abView loadAd];
     
     self.view = abView;
 }

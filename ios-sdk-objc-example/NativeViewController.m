@@ -18,6 +18,8 @@
 
     AdbladeNativeView *abView = (AdbladeNativeView *)[AdbladeViewFactory createView:(@"13321-3790713564") adType: AdbladeAdTypenative delegate: self];
     
+    [abView loadAd];
+    
     [[self view] addSubview: abView];
 }
 
